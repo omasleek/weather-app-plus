@@ -61,7 +61,7 @@ days.forEach(function (day) {
   forecastHtml +
   `
   <div class="weather-forecast-day">
-          <div class="weather-forecast-date">Tue</div>
+          <div class="weather-forecast-date">${day}</div>
           <div class="weather-forecast-icon">🌤️</div>
           <div class="weather-forecast-temperatures">
             <div class="weather-forecast-temperature">
